@@ -1,3 +1,25 @@
+# Introduction
+<p>This website is a simple online shopping website.</p>
+
+It is composed of shopping cart and checkout components. Products data was requested from Google Firestore database.
+
+# Technology Stack
+
+React, JavaScript, Styled-component, Google Firebase, react-router-dom(V6), react-redux(redux-tool-kits, redux-saga)
+
+# Preview
+![image](https://github.com/Neil-Hong/Kids-Online-Shopping/blob/main/src/assets/preview-homepage.png)
+![image](https://github.com/Neil-Hong/Kids-Online-Shopping/blob/main/src/assets/preview-shop.png)
+![image](https://github.com/Neil-Hong/Kids-Online-Shopping/blob/main/src/assets/preview-signin%26register.png)
+![image](https://github.com/Neil-Hong/Kids-Online-Shopping/blob/main/src/assets/preview-checkout.png)
+
+# Function
+-Login & Register:
+<p>Login & Register function was achieved by using Google Firebase Authentication. User can choose their own email address or google account to register. And due to the cookie properties, users login status will be stored on the browser until user close it.</p>
+
+-Shopping Cart:
+<p>Users' cart data can be stored while they browsing the website, due to the react-redux, cart data will be maintained during the whole shopping process.</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
